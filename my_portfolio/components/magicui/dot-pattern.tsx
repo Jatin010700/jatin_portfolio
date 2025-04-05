@@ -98,9 +98,14 @@ export function DotPattern({
     (_, i) => {
       const col = i % Math.ceil(dimensions.width / width);
       const row = Math.floor(i / Math.ceil(dimensions.width / width));
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      const x = col * width + cx;
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      const y = row * height + cy;
+
       return {
-        x: col * width + cx,
-        y: row * height + cy,
+        x,
+        y,
         delay: Math.random() * 5,
         duration: Math.random() * 3 + 2,
       };
@@ -123,7 +128,7 @@ export function DotPattern({
           <stop offset="100%" stopColor="currentColor" stopOpacity="0" />
         </radialGradient>
       </defs>
-      {dots.map((dot, index) => (
+      {dots.map((dot /* eslint-disable-line @typescript-eslint/no-unused-vars */, index /* eslint-disable-line @typescript-eslint/no-unused-vars */) => (
         <motion.circle
           key={`${dot.x}-${dot.y}`}
           cx={dot.x}
