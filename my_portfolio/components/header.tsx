@@ -13,7 +13,7 @@ export function Header() {
       I am a fast learner, detail-oriented, and adaptable, with a genuine desire to contribute to any organization through hard work and perseverance.
       I am eager to learn and grow in new technologies.
       </p>
-      <a href="/CV_2025.pdf" target="_blank" className="rounded-full mt-2">
+      <a href="/CV.pdf" target="_blank" className="rounded-full mt-2">
         <InteractiveHoverButton>Resume</InteractiveHoverButton>
       </a>
     </div>

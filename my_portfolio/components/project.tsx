@@ -109,8 +109,8 @@ const features = [
       </div>
     ),
     className: "col-span-3 lg:col-span-1",
-    href: "#",
-    href2: "https://github.com/Jatin010700/portfolio",
+    href: "https://jatinportfolio-sable.vercel.app/",
+    href2: "https://github.com/Jatin010700/jatin_portfolio",
     cta: "Website",
     cta2: "Source",
     background: (
