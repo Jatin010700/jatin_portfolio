@@ -6,7 +6,7 @@ import getNote from "../public/note.png"
 import getCarRental from "../public/carRental.png"
 import getPortfolio from "../public/portfolio.png"
 import getOnlineShop from "../public/onlineShop.png"
-import getVercel from "../app/favicon.ico"
+import getVercel from "../public/favicon.ico"
 import getVue from "../public/vue.svg"
 
 const features = [
